@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ST31_kadai04</string>
+    <string name="hint">数値を入力してください</string>
+    <string name="operator_1">+</string>
+    <string name="operator_2">-</string>
+    <string name="operator_3">×</string>
+    <string name="operator_4">÷</string>
+    <string name="result">計算結果</string>
 </resources>

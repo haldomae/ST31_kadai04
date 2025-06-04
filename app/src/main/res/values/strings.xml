@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ST31_kadai04</string>
+    <string name="hint">数値を入力してください</string>
 </resources>

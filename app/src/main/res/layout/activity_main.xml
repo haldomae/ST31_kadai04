@@ -21,12 +21,13 @@
         android:id="@+id/keyArea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:columnCount="２"
+        android:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
     <!-- 部品を配置 -->
         <Button
+            android:id="@+id/plusButton"
             style="@style/button_style_1"
             android:layout_height="50dp"
             android:text="+"

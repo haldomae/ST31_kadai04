@@ -17,6 +17,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+    <GridLayout
+        android:id="@+id/keyArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="２"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    <!-- 部品を配置 -->
+        <Button
+            style="@style/button_style_1"
+            android:layout_height="50dp"
+            android:text="+"
+            android:layout_column="0"
+            android:layout_row="0"/>
+        <Button
+            style="@style/button_style_1"
+            android:layout_height="50dp"
+            android:text="-"
+            android:layout_column="1"
+            android:layout_row="0"/>
+        <Button
+            style="@style/button_style_2"
+            android:layout_height="50dp"
+            android:text="×"
+            android:layout_column="0"
+            android:layout_row="1"/>
+        <Button
+            style="@style/button_style_2"
+            android:layout_height="50dp"
+            android:text="÷"
+            android:layout_column="1"
+            android:layout_row="1" />
+    </GridLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
